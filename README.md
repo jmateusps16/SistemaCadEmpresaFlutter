@@ -1,10 +1,10 @@
 # Sistema para cadastro de empresa
-
 Criação de aplicativo para gerenciamento de empresas
 
 ## Descrição
-
 Este projeto utiliza o framework Flutter para desenvolvimento do APP multiplataforma.
+
+<img src="https://github.com/jmateusps16/SistemaCadEmpresaFlutter/blob/master/SistemaCadEmpresa_jmateusps16.png" width="500">
 
 ### Integrantes do Grupo
 - [João Mateus](https://github.com/jmateusps16) :sunglasses:
