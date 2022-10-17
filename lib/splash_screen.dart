@@ -13,17 +13,21 @@ class InitState extends State<SplashScreen> {
 
   Widget InitWidget() {
     return Scaffold(
-      body: Stack(
-        children: [
-          Container(
-            decoration: BoxDecoration(
-                color: new Color(0xffF5591F),
-                gradient: LinearGradient(
-                    colors: [(new Color(0xffF5591F)), (new Color(0xffF2861E))],
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter)),
-          )
-        ],
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Container(
+              decoration: const BoxDecoration(
+                color: Color.fromARGB(255, 243, 241, 240),
+              ),
+            ),
+            Center(
+              child: Container(
+                child: Image.asset('images/aimvx_logo.png'),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
