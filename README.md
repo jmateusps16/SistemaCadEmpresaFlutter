@@ -54,11 +54,11 @@ Este projeto utiliza o framework Flutter para desenvolvimento do APP multiplataf
 
 ### Sprint 2 : Criação de Tela de Login e Arbitrário
 
-- [ ] Branch Feature splash
-- [ ] Criação de tela splash
-- [ ] Logo empresa e estado do carregamento
-- [ ] Testes
-- [ ] Pull Request desenv
+- [x] Branch Feature splash
+- [x] Criação de tela splash
+- [x] Logo empresa e estado do carregamento
+- [x] Testes
+- [x] Pull Request desenv
 - [ ] Branch Feature arbitrario
 - [ ] Criação de texto de tela
 - [ ] Botões de Cadastro e Login
