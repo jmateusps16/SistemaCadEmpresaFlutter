@@ -59,9 +59,9 @@ Este projeto utiliza o framework Flutter para desenvolvimento do APP multiplataf
 - [x] Logo empresa e estado do carregamento
 - [x] Testes
 - [x] Pull Request desenv
-- [ ] Branch Feature arbitrario
-- [ ] Criação de texto de tela
-- [ ] Botões de Cadastro e Login
+- [x] Branch Feature arbitrario
+- [x] Criação de texto de tela
+- [x] Botões de Cadastro e Login
 - [ ] Testes
 - [ ] Pull Request desenv
 
