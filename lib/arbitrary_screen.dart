@@ -57,6 +57,18 @@ Widget initWidget() {
               ),
             ),
           ),
+          Container(
+            height: 100,
+            margin: EdgeInsets.only(top: 40, left: 50, right: 50, bottom: 20),
+            child: Text(
+              "Você livre de cadastros demorados, \nnão automatizados e que não possuem acessibilidade.",
+              style: TextStyle(
+                fontSize: 17,
+                color: Colors.blueGrey.withOpacity(1.0),
+                //fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         ],
       ),
     )),
