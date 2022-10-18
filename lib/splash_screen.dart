@@ -1,4 +1,8 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+
+import 'arbitrary_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -18,6 +22,17 @@ class InitState extends State<SplashScreen> with TickerProviderStateMixin {
       });
     controller.repeat();
     super.initState();
+    startTime();
+  }
+
+  startTime() async {
+    var duration = const Duration(seconds: 5);
+    return Timer(duration, loginRoute);
+  }
+
+  loginRoute() {
+    Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (context) => ArbitraryScreen()));
   }
 
   @override
