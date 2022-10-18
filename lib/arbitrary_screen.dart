@@ -34,7 +34,7 @@ Widget initWidget() {
             )),
           ),
           Container(
-            margin: EdgeInsets.only(top: 90, left: 50),
+            margin: EdgeInsets.only(top: 80, left: 50),
             alignment: Alignment.bottomLeft,
             child: Text(
               "Cadastro de Empresas",
@@ -68,6 +68,18 @@ Widget initWidget() {
                 //fontWeight: FontWeight.bold,
               ),
             ),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              // vai para Quero fazer parte!
+            },
+            child: Text('Quero fazer parte!'),
+          ),
+          OutlinedButton(
+            onPressed: () {
+              // vai para Já possuo conta
+            },
+            child: Text("Já possuo conta"),
           ),
         ],
       ),
