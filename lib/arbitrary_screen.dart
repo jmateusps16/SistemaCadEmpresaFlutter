@@ -33,6 +33,18 @@ Widget initWidget() {
               ],
             )),
           ),
+          Container(
+            margin: EdgeInsets.only(top: 90, left: 50),
+            alignment: Alignment.bottomLeft,
+            child: Text(
+              "Cadastro de Empresas",
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         ],
       ),
     )),
