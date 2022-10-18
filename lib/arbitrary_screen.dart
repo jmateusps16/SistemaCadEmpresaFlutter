@@ -45,6 +45,18 @@ Widget initWidget() {
               ),
             ),
           ),
+          Container(
+            margin: EdgeInsets.only(top: 10, left: 50),
+            alignment: Alignment.bottomLeft,
+            child: Text(
+              "Nunca foi tão simples!",
+              style: TextStyle(
+                fontSize: 31,
+                color: Colors.black,
+                //fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         ],
       ),
     )),
