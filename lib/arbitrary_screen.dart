@@ -25,7 +25,7 @@ Widget initWidget() {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Container(
+                SizedBox(
                   child: Image.asset('images/aimvx_logo.png'),
                   height: 170,
                   width: 250,
@@ -34,9 +34,9 @@ Widget initWidget() {
             )),
           ),
           Container(
-            margin: EdgeInsets.only(top: 80, left: 50),
+            margin: const EdgeInsets.only(top: 80, left: 50),
             alignment: Alignment.bottomLeft,
-            child: Text(
+            child: const Text(
               "Cadastro de Empresas",
               style: TextStyle(
                 fontSize: 25,
@@ -46,9 +46,9 @@ Widget initWidget() {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: 10, left: 50),
+            margin: const EdgeInsets.only(top: 10, left: 50),
             alignment: Alignment.bottomLeft,
-            child: Text(
+            child: const Text(
               "Nunca foi tão simples!",
               style: TextStyle(
                 fontSize: 31,
@@ -59,7 +59,8 @@ Widget initWidget() {
           ),
           Container(
             height: 100,
-            margin: EdgeInsets.only(top: 40, left: 50, right: 50, bottom: 20),
+            margin:
+                const EdgeInsets.only(top: 40, left: 50, right: 50, bottom: 20),
             child: Text(
               "Você livre de cadastros demorados, \nnão automatizados e que não possuem acessibilidade.",
               style: TextStyle(
@@ -73,13 +74,13 @@ Widget initWidget() {
             onPressed: () {
               // vai para Quero fazer parte!
             },
-            child: Text('Quero fazer parte!'),
+            child: const Text('Quero fazer parte!'),
           ),
           OutlinedButton(
             onPressed: () {
               // vai para Já possuo conta
             },
-            child: Text("Já possuo conta"),
+            child: const Text("Já possuo conta"),
           ),
         ],
       ),
