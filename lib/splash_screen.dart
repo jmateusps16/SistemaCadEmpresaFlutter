@@ -5,11 +5,14 @@ import 'package:flutter/material.dart';
 import 'arbitrary_screen.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
-  State<StatefulWidget> createState() => InitState();
+  State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class InitState extends State<SplashScreen> with TickerProviderStateMixin {
+class _SplashScreenState extends State<SplashScreen>
+    with TickerProviderStateMixin {
   late AnimationController controller;
 
   @override
@@ -43,10 +46,6 @@ class InitState extends State<SplashScreen> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return InitWidget();
-  }
-
-  Widget InitWidget() {
     return Scaffold(
       body: SafeArea(
         child: Stack(
@@ -78,5 +77,6 @@ class InitState extends State<SplashScreen> with TickerProviderStateMixin {
         ),
       ),
     );
+    ;
   }
 }
