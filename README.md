@@ -69,5 +69,7 @@ Este projeto utiliza o framework Flutter para desenvolvimento do APP multiplataf
 ...
 
 ## Créditos
+- A [Proz Tecnologia](https://github.com/proz-tecnologia) pelo curso oferecido.
+- A grande orientadora [Jessica Pereira](https://github.com/jehhxuxu) e ilustre mentoria de [Kaio C. de Oliveira](https://github.com/devkaio).
 - Plataforma [Whimsical](https://whimsical.com/) para criação dos wireframes e fluxos
 - Ao [Visual Studio Code](https://code.visualstudio.com/) ferramenta TOP!
