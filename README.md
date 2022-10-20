@@ -12,7 +12,7 @@ Este projeto utiliza o framework Flutter para desenvolvimento do APP multiplataf
 ## Etapas concluídas
 - [x] Sprint 0 - Requisitos de Regras de Negócios
 - [x] Sprint 1 - Gerenciamento Inicial
-- [ ] Sprint 2 - Criação de Tela de Login e Arbitrário
+- [x] Sprint 2 - Criação de Tela de Login e Arbitrário
 - [ ] Sprint 3 - Tela de Cadastro (Usuário)
 - [ ] Sprint 4 - Tela de Login e Redefinição de Senha
 - [ ] Sprint 5 - Tela "principal" com lista de empresas cadastradas
@@ -62,11 +62,13 @@ Este projeto utiliza o framework Flutter para desenvolvimento do APP multiplataf
 - [x] Branch Feature arbitrario
 - [x] Criação de texto de tela
 - [x] Botões de Cadastro e Login
-- [ ] Testes
-- [ ] Pull Request desenv
 
 ### Sprint 3 : Tela de Cadastro (Usuário)
-...
+- [x] Criação de tela Cadastro Usuário
+- [x] Criação de tela de Login
+- [x] (Cadastro/Login) Rota de Botão voltar pra tela abritario
+- [ ] Rota do botão cadastro para tela home
+- [ ] Rota do botão entrar acessando a tela home
 
 ## Créditos
 - A [Proz Tecnologia](https://github.com/proz-tecnologia) pelo curso oferecido.
