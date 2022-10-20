@@ -46,11 +46,11 @@ class _LoginScreenState extends State<LoginScreen> {
                         labelText: 'Usuário ou e-mail',
                       ),
                     ))),
-            Row(
-              children: [
-                Container(
-                  margin: const EdgeInsets.only(left: 51),
-                  child: SizedBox(
+            Container(
+              margin: const EdgeInsets.only(left: 51),
+              child: Row(
+                children: [
+                  SizedBox(
                     child: Checkbox(
                       value: isChecked,
                       onChanged: (bool? value) {
@@ -60,8 +60,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       },
                     ),
                   ),
-                ),
-              ],
+                  const Text("Lembrar-me", style: TextStyle(fontSize: 14))
+                ],
+              ),
             ),
             Container(
                 margin: const EdgeInsets.only(top: 10),
