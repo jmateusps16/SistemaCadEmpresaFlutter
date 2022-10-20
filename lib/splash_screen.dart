@@ -30,10 +30,10 @@ class _SplashScreenState extends State<SplashScreen>
 
   startTime() async {
     var duration = const Duration(seconds: 5);
-    return Timer(duration, loginRoute);
+    return Timer(duration, arbritaryRoute);
   }
 
-  loginRoute() {
+  arbritaryRoute() {
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => ArbitraryScreen()));
   }
