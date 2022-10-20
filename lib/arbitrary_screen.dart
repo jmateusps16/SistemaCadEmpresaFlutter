@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sistema_cadastro_empresa/login_screen.dart';
+import 'package:sistema_cadastro_empresa/register_screen.dart';
 
 class ArbitraryScreen extends StatefulWidget {
   const ArbitraryScreen({super.key});
@@ -24,9 +25,9 @@ class InitState extends State<ArbitraryScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
-                    child: Image.asset('images/aimvx_logo.png'),
                     height: 170,
                     width: 250,
+                    child: Image.asset('images/aimvx_logo.png'),
                   ),
                 ],
               )),
@@ -70,7 +71,11 @@ class InitState extends State<ArbitraryScreen> {
             ),
             ElevatedButton(
               onPressed: () {
-                // vai para Quero fazer parte!
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const RegisterScreen(),
+                    ));
               },
               child: const Text('Quero fazer parte!'),
             ),
