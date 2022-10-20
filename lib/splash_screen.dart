@@ -34,8 +34,8 @@ class _SplashScreenState extends State<SplashScreen>
   }
 
   arbritaryRoute() {
-    Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => ArbitraryScreen()));
+    Navigator.pushReplacement(context,
+        MaterialPageRoute(builder: (context) => const ArbitraryScreen()));
   }
 
   @override
@@ -77,6 +77,5 @@ class _SplashScreenState extends State<SplashScreen>
         ),
       ),
     );
-    ;
   }
 }

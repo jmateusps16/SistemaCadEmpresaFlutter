@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:sistema_cadastro_empresa/login_screen.dart';
 
 class ArbitraryScreen extends StatefulWidget {
+  const ArbitraryScreen({super.key});
+
   @override
   State<StatefulWidget> createState() => InitState();
 }
